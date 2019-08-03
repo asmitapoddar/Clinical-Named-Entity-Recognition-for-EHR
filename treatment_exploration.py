@@ -36,7 +36,7 @@ for i in range(l):
         start=i+1
 
 print(conditions[0])
-#print(conditions[0] in condition_word_list)
+#print(conditions[0] in condition_word_list) 
 
 indices = map(patients.lower().find, conditions)
 length_of_conditions = [len(con) for con in conditions]
